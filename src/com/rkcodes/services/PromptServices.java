@@ -4,17 +4,17 @@ import com.rkcodes.elements.Hotel;
 import com.rkcodes.elements.Room;
 
 public interface PromptServices {
-    void displayMenu();
+    int displayMenu();
 
     void displayDivider();
 
-    void displayAllAvailRooms(Hotel hotel);
+    Hotel displayCreateHotel();
 
-    void displayAllInBudgetRooms(Hotel hotel, double budget);
+    void displayCreateRoom(Hotel currentHotel);
 
-    void displayCreateHotel();
+    void displayAllAvailRooms(Hotel hotel, double budget);
 
-    void successCreated(Hotel hotel, Room room);
+    void displayRooms(Room room, double budget, int no);
 
-    void conitnueOrEnd();
+    int conitnueOrEnd();
 }
