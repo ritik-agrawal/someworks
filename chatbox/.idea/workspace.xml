@@ -11,12 +11,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1foTm66yOH6lTKIrD5I5BuDHmqX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,6 +44,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="169" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597245201014">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="169" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/57.27.1309.741@57.27.1309.741" timestamp="1597245201014" />
+    <state x="519" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1597422145004">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="519" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/57.27.1309.741@57.27.1309.741" timestamp="1597422145004" />
     <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596888805822">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
@@ -51,5 +60,9 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="432" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/57.27.1309.741@57.27.1309.741" timestamp="1596884495298" />
+    <state x="656" y="107" width="710" height="578" key="find.popup" timestamp="1597421290102">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="656" y="107" width="710" height="578" key="find.popup/57.27.1309.741@57.27.1309.741" timestamp="1597421290102" />
   </component>
 </project>

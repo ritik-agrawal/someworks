@@ -1,8 +1,8 @@
-package com.hackathon.chatbox;
+package com.home.chatbox;
 
 import com.google.gson.Gson;
-import com.hackathon.chatbox.exception.DisplayMessageException;
-import com.hackathon.chatbox.utils.StringUtils;
+import com.home.chatbox.exception.DisplayMessageException;
+import com.home.chatbox.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.AnnotationUtils;

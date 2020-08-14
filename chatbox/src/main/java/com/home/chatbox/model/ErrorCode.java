@@ -1,4 +1,4 @@
-package com.hackathon.chatbox.model;
+package com.home.chatbox.model;
 
 import lombok.Getter;
 

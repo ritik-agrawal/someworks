@@ -1,6 +1,6 @@
-package com.hackathon.chatbox.exception;
+package com.home.chatbox.exception;
 
-import com.hackathon.chatbox.model.ErrorCode;
+import com.home.chatbox.model.ErrorCode;
 
 public class DisplayMessageException extends RuntimeException {
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chatbox.iml" filepath="$PROJECT_DIR$/chatbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonbox.iml" filepath="$PROJECT_DIR$/commonbox.iml" />
     </modules>
   </component>
 </project>
