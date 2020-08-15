@@ -14,7 +14,7 @@ public class CronSchedule {
     private String cronGroup;
     private String cronExpression;
     private CronStatus status;
-    private Class<? extends AbstractCronJob> executer;
+    private Class<? extends AbstractCronJob> executor;
 
     public boolean isActive(){
         return status.equals(CronStatus.ACTIVE);

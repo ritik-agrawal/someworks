@@ -26,7 +26,7 @@ public class CronScheduleServiceImpl implements CronScheduleService {
 
             //Cron job definition
             JobKey jobKey = new JobKey(cronId, group);
-            JobDetail job = newJob(cron.getExecuter())
+            JobDetail job = newJob(cron.getExecutor())
                     .withIdentity(jobKey)
                     .usingJobData("cronCode",cron.getCronCode())
                     .build();
