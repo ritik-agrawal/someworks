@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
+import org.quartz.JobKey;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
@@ -18,21 +19,18 @@ public abstract class AbstractCronJob implements Job {
     private String cronCode;
     @Autowired private  CronScheduleService cronScheduleService;
 
-    protected CronSchedule getCronSchedule(){
-        return cronScheduleService.findByCronCode(cronCode);
-    }
-
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         long startTime = new Date().getTime();
-        CronSchedule cs = getCronSchedule();
+        JobKey jobKey = jobExecutionContext.getTrigger().getJobKey();
         try{
-            log.debug("Cron "+cs.getCronCode()+" started at "+ new Date().getTime());
+            log.debug("Cron "+jobKey.getName()+"|"+jobKey.getGroup()+" started at "+ new Date().getTime());
+            execute();
         }catch (Exception e){
             log.error("Cron Execution Failed with error: "+e.getMessage(),e);
         }finally {
             postRun();
-            log.info("Cron "+cs.getCronCode()+" Finished in"+ (new Date().getTime() - startTime)+" ms");
+            log.info("Cron "+jobKey.getName()+"|"+jobKey.getGroup()+" Finished in"+ (new Date().getTime() - startTime)+" ms");
         }
     }
 }

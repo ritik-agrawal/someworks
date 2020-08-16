@@ -13,15 +13,6 @@ public class CronSchedule {
     private String cronCode;
     private String cronGroup;
     private String cronExpression;
-    private CronStatus status;
+    private String status;
     private Class<? extends AbstractCronJob> executor;
-
-    public boolean isActive(){
-        return status.equals(CronStatus.ACTIVE);
-    }
-
-    private enum  CronStatus{
-        ACTIVE, INACTIVE
-    }
-
 }

@@ -32,13 +32,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JpaDemo" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.common">
     <configuration name="common" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.home.chatbox.ChatboxApplication" />
@@ -47,6 +47,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChatboxApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="commonbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hackathon.chatbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hackathon.chatbox" />
+      <option name="MAIN_CLASS_NAME" value="com.hackathon.chatbox.ChatboxApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.common" />
+      <item itemvalue="JUnit.ChatboxApplicationTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChatboxApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,51 +98,112 @@
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="443" y="182" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/57.27.1309.741@57.27.1309.741" timestamp="1597511283876" />
-    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597512123040">
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597575405621">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl/57.27.1309.741@57.27.1309.741" timestamp="1597512123040" />
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl/57.27.1309.741@57.27.1309.741" timestamp="1597575405621" />
+    <state width="1263" height="419" key="GridCell.Tab.0.bottom" timestamp="1597586798986">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1597586798986" />
+    <state width="1263" height="419" key="GridCell.Tab.0.center" timestamp="1597586798985">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1597586798985" />
+    <state width="1263" height="419" key="GridCell.Tab.0.left" timestamp="1597586798985">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1597586798985" />
+    <state width="1263" height="419" key="GridCell.Tab.0.right" timestamp="1597586798986">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1597586798986" />
+    <state width="1263" height="419" key="GridCell.Tab.1.bottom" timestamp="1597586802845">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.1.bottom/57.27.1309.741@57.27.1309.741" timestamp="1597586802845" />
+    <state width="1263" height="419" key="GridCell.Tab.1.center" timestamp="1597586802845">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.1.center/57.27.1309.741@57.27.1309.741" timestamp="1597586802845" />
+    <state width="1263" height="419" key="GridCell.Tab.1.left" timestamp="1597586802844">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.1.left/57.27.1309.741@57.27.1309.741" timestamp="1597586802844" />
+    <state width="1263" height="419" key="GridCell.Tab.1.right" timestamp="1597586802845">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="419" key="GridCell.Tab.1.right/57.27.1309.741@57.27.1309.741" timestamp="1597586802845" />
     <state x="432" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1596884495298">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
     <state x="432" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/57.27.1309.741@57.27.1309.741" timestamp="1596884495298" />
-    <state x="326" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1597512301821">
+    <state x="326" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1597574426098">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="326" y="27" width="1024" height="741" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1597512301821" />
-    <state x="728" y="27" width="631" height="496" key="dock-window-1" timestamp="1597424272695">
+    <state x="326" y="27" width="1024" height="741" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1597574426098" />
+    <state x="721" y="27" width="609" height="380" key="dock-window-1" timestamp="1597582690661">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="728" y="27" width="631" height="496" key="dock-window-1/57.27.1309.741@57.27.1309.741" timestamp="1597424272695" />
-    <state x="656" y="107" width="710" height="578" key="find.popup" timestamp="1597421290102">
+    <state x="721" y="27" width="609" height="380" key="dock-window-1/57.27.1309.741@57.27.1309.741" timestamp="1597582690661" />
+    <state x="654" y="27" width="609" height="406" key="dock-window-2" timestamp="1597584225632">
       <screen x="57" y="27" width="1309" height="741" />
     </state>
-    <state x="656" y="107" width="710" height="578" key="find.popup/57.27.1309.741@57.27.1309.741" timestamp="1597421290102" />
+    <state x="654" y="27" width="609" height="406" key="dock-window-2/57.27.1309.741@57.27.1309.741" timestamp="1597584225632" />
+    <state x="656" y="107" width="710" height="578" key="find.popup" timestamp="1597583151342">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="656" y="107" width="710" height="578" key="find.popup/57.27.1309.741@57.27.1309.741" timestamp="1597583151342" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/CronRegistryApi.java</url>
-          <line>23</line>
+          <line>26</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/AbstractCronJob.java</url>
-          <line>26</line>
+          <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/CronRegistryApi.java</url>
-          <line>31</line>
+          <line>35</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/CronScheduleServiceImpl.java</url>
-          <line>22</line>
+          <line>33</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/jobs/PendingReciptUploadCronJob.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/CronRegistryApi.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/home/chatbox/module/cron/CronScheduleServiceImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="mapper" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/chatbox$ChatboxApplicationTests.ic" NAME="ChatboxApplicationTests Coverage Results" MODIFIED="1597513553366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hackathon.chatbox.*</FILTER>
+    </SUITE>
   </component>
 </project>

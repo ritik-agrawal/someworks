@@ -1,2 +1,2 @@
-cronCode,cronGroup,cronExpression,status,executor
-DOCUMENT_UPLOADER,DULHAN,0 0/5 * * *,ACTIVE,com.home.chatbox.module.cron.jobs.PendingReciptUploadCronJob
+cronCode,cronExpression,cronGroup,executor,status
+DOCUMENT_UPLOADER,0 0/3 * * * ?,DULHAN,com.home.chatbox.module.cron.jobs.PendingReciptUploadCronJob,ACTIVE

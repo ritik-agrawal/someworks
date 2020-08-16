@@ -1,6 +1,5 @@
 com/home/chatbox/utils/StringUtils.class
 com/home/chatbox/model/ErrorCode.class
-com/home/chatbox/model/CronSchedule$CronStatus.class
 com/home/chatbox/module/cron/AbstractCronJob.class
 com/home/chatbox/model/CronSchedule.class
 com/home/chatbox/module/cron/jobs/PendingReciptUploadCronJob.class

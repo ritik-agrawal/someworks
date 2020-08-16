@@ -3,8 +3,10 @@ package com.home.chatbox.module.cron;
 import com.home.chatbox.model.CronSchedule;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.util.Date;
 
 import static org.quartz.CronScheduleBuilder.cronSchedule;
@@ -16,6 +18,15 @@ import static org.quartz.TriggerBuilder.newTrigger;
 public class CronScheduleServiceImpl implements CronScheduleService {
 
     private static SchedulerFactory schedulerFactory;
+    @Autowired private CronRegistryApi cronRegistryApi;
+
+    @PostConstruct
+    public void initSchedule() throws  SchedulerException{
+        log.info("initSchedule() is Executed.");
+        schedulerFactory = new org.quartz.impl.StdSchedulerFactory();
+        Scheduler scheduler = schedulerFactory.getScheduler();
+        scheduler.start();
+    }
 
     @Override
     public Date schedule(CronSchedule cron) {
@@ -50,7 +61,7 @@ public class CronScheduleServiceImpl implements CronScheduleService {
     }
 
     @Override
-    public CronSchedule findByCronCode(String cronCode) {
-        return null;
+    public CronSchedule findByJobkey(JobKey jobKey) {
+        return cronRegistryApi.getCronScheduler(jobKey);
     }
 }
