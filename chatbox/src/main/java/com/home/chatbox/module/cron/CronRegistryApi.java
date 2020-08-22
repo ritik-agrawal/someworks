@@ -19,7 +19,10 @@ import java.util.List;
 @Slf4j
 @Service("cronRegistryApi")
 public class CronRegistryApi {
+
+    private static final String INACTIVE = "INACTIVE";
     private static List<CronSchedule> crons = new ArrayList<>();
+
     @Autowired private CronScheduleService cronScheduleService;
 
     @PostConstruct
@@ -54,7 +57,9 @@ public class CronRegistryApi {
 
     private void schedule(){
         for (CronSchedule cron : crons){
-            cronScheduleService.schedule(cron);
+            if (!cron.getStatus().equals(INACTIVE)) {
+                cronScheduleService.schedule(cron);
+            }
         }
     }
 

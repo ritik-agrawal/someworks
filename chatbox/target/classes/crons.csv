@@ -1,2 +1,3 @@
 cronCode,cronExpression,cronGroup,executor,status
-DOCUMENT_UPLOADER,0 0/3 * * * ?,DULHAN,com.home.chatbox.module.cron.jobs.PendingReciptUploadCronJob,ACTIVE
+DOCUMENT_UPLOADER,0 0/2 * * * ?,DULHAN,com.home.chatbox.module.cron.jobs.PendingReciptUploadCronJob,ACTIVE
+IMAGE_UPLOADER,0/4 * * * * ?,RKWORKS,com.home.chatbox.module.cron.jobs.PendingImageUploaderCronJob,INACTIVE
